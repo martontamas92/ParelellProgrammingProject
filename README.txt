@@ -1,5 +1,3 @@
-# ParelellProgrammingProject
-
 PÁRHUZAMOS PROGRAMOZÁS PROJEKT
 Dns szekvenciálás lehetséges megoldása párhuzamosított mintaillesztési algoritmusokkal
 PROJEKTHEZ BEADOTT ISMERTETÕ
@@ -139,6 +137,5 @@ A helyes parancs: nvcc DNA_GPU.cu -lcurand -o dnagpu.
 A futtatás az elõzõekkel megegyezõ.
 A szekvenciák mérete növelhetõ, de a gyors futtatás végett, nem ajánlott(A CPU keresések nagy méretû tömbön lassúak.) Továbbá az elrejtést hozzá kell igazítani a tömbhöz:
 int j = (i-1)%PATTERN_SIZE; // if the sequence size is 15000 i+2
-
 
 
